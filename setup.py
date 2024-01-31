@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_desc = f.read()
 
 setup(
-    name='ds_forge',
+    name='dsforge',
     version='0.1.1',
     author='Harisiva R G',
     author_email='harisivarg@gmail.com',
@@ -14,10 +14,13 @@ setup(
     url='https://github.com/Harisiva-rg/ds_forge',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['logging'], 
-    entry_points={
-        'console_scripts': [
-            'template=template:main',
-        ],
-    },
+    install_requires=[], 
+    license="MIT",
+    classifiers = [
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.10",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.10",
+
 )
