@@ -7,6 +7,7 @@ setup(
     author_email='harisivarg@gmail.com',
     description='A package to create a data science project structure',
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     url='https://github.com/Harisiva-rg/ds_forge',
     packages=find_packages('src'),
     package_dir={'': 'src'},
