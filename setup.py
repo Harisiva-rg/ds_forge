@@ -11,7 +11,7 @@ setup(
     description='A package to create a data science project structure',
     long_description=long_desc,
     long_description_content_type="text/markdown",
-    url='https://github.com/Harisiva-rg/ds_forge',
+    url='https://github.com/Harisiva-rg/dsforge',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     install_requires=[], 
