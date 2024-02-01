@@ -40,15 +40,17 @@ The package will create the following structure and files:
     └── README.md
 
 
-Usage:
-    Run the script from the directory where you intend to create the project template. 
-    ```python3
+## Usage
 
-    # Replace 'MyProject' according to your project's name
+Run the script from the directory where you intend to create the project template.
 
-    from dsforge import creator
-    creator("MyProject")
-    ```
+```python
+# Replace 'MyProject' according to your project's name
+
+from dsf import creator
+creator("MyProject")
+
+ ```
 
 ## Notes:
 
