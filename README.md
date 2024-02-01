@@ -42,8 +42,10 @@ The package will create the following structure and files:
 
 Usage:
     Run the script from the directory where you intend to create the project template. 
-    ```bash
+    ```python3
+
     # Replace 'MyProject' according to your project's name
+
     from dsforge import creator
     creator("MyProject")
     ```
