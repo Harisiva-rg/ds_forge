@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='dsforge',
-    version='0.0.7',
+    version='0.0.1',
     author='Harisiva R G',
     author_email='harisivarg@gmail.com',
     description='A package to create a data science project structure',
