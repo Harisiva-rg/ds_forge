@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 import logging
 
+__version__ = "0.0.7"
+__author__ = 'Harisiva R G'
+
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
 def creator(projectName):
