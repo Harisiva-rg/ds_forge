@@ -22,6 +22,7 @@ def creator(projectName):
         f"src/{projectName}/pipeline/__init__.py",
         f"src/{projectName}/constants/__init__.py",
         "models/.gitkeep",
+        "logs/.gitkeep",
         "data/raw/.gitkeep",
         "data/intermediate/.gitkeep",
         "data/processed/.gitkeep",
