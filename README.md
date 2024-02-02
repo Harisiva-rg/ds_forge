@@ -47,7 +47,7 @@ Run the script from the directory where you intend to create the project templat
 ```python
 # Replace 'MyProject' according to your project's name
 
-from dsf import creator
+from dsforge import creator
 creator("MyProject")
 
  ```

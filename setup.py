@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='dsforge',
-    version='0.0.1',
+    version='0.0.2',
     author='Harisiva R G',
     author_email='harisivarg@gmail.com',
     description='A package to create a data science project structure',
@@ -13,7 +13,6 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/Harisiva-rg/dsforge',
     packages=find_packages(),
-    # package_dir={'': 'src'},
     install_requires=[], 
     license="MIT",
     classifiers = [
