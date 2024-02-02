@@ -19,6 +19,8 @@ The package will create the following structure and files:
     │       │   └── __init__.py
     ├── models
     │   └── .gitkeep
+    ├── logs
+    │   └── .gitkeep
     ├── data
     │   ├── raw
     │   │   └── .gitkeep
@@ -59,7 +61,7 @@ Below is a guide for folder usage:
 
   - **src/(projectName):** Main source code directory.
   - **models:** Reserved for storing model files.
-  - **data/raw:** For storing raw/intermediate/processed data files.
+  - **data:** For storing raw/intermediate/processed data files.
   - **reports:** For storing graphs and reports.
   - **research:** Jupyter notebook for experiments.
   - **tests:** Reserved for test scripts.

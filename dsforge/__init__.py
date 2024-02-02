@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-__version__ = "0.0.2"
+__version__ = "0.1.1"
 __author__ = 'Harisiva R G'
 
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
