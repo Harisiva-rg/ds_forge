@@ -28,6 +28,8 @@ The package will create the following structure and files:
     │   │   └── .gitkeep
     │   └── processed
     │       └── .gitkeep
+    ├── exports
+    │   └── .gitkeep
     ├── reports
     │   └── .gitkeep
     ├── research
@@ -63,6 +65,7 @@ Below is a guide for folder usage:
   - **models:** Reserved for storing model files.
   - **data:** For storing raw/intermediate/processed data files.
   - **reports:** For storing graphs and reports.
+  - **exports:** For storing outputs and other file exports.
   - **research:** Jupyter notebook for experiments.
   - **tests:** Reserved for test scripts.
   - **main.py:** Main entry point for the project.

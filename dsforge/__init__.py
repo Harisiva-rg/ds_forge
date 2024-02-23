@@ -27,6 +27,7 @@ def creator(projectName):
         "data/intermediate/.gitkeep",
         "data/processed/.gitkeep",
         "reports/.gitkeep",
+        "exports/.gitkeep",
         "research/experiments.ipynb",
         "tests/.gitkeep",
         "main.py",
