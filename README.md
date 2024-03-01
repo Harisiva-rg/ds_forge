@@ -1,4 +1,4 @@
-DSFORGE ![PyPI](https://img.shields.io/pypi/v/dsforge?label=pypi%20package)
+## DSFORGE ![PyPI](https://img.shields.io/pypi/v/dsforge?label=pypi%20package)
 
 This package automates the creation of a basic directory structure and files for a data science or machine learning project. It is designed to set up an empty project with standard directories and placeholder files, making it easier to start your project.
 
